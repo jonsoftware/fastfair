@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST & FAIR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar produto">
+            <button type="button">Pesquisar</button>
+        </div>
+    </div>
+    
+    
+    <nav>
+       
+        <div class="logo">
+            <img src="logo/logo.png" alt="Logo da Fast & Fair"> <!-- Substitua pelo caminho correto da sua imagem -->
+        </div>
+        <div class="links">
+            <ul class="nav-itens">
+                <li class="submenu-parent">
+                    <a href="#">Departamentos</a>
+                    <ul class="submenu">
+                        <li><a href="#">frutas</a></li>
+                        <li><a href="#">legumes</a></li>
+                        <li><a href="#">plantas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">Carrinho</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </div>
+        
+        <div class="btn">
+            <button href="#" class="login">Login</button>
+            <button href="#" class="cadastro">Cadastro</button>
+        </div>
+
+    </nav>
+
+  <!-- slide inicio -->
+
+  <div class="slider">
+        
+    <div class="slides">
+        <!-- Radio buttons -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <!-- Fim dos radio buttons -->
+
+        <!-- Slide imagens -->
+        <div class="slide first">
+            <img src="slide/banana.png" alt="imagem 1"/>
+        </div> 
+        
+        <div class="slide">
+            <img src="slide/laranja.png" alt="imagem 2"/>
+        </div>    
+            
+        <div class="slide">
+            <img src="slide/maracuja.png" alt="imagem 3"/>
+        </div>    
+            
+        <div class="slide">
+            <img src="slide/maça.png" alt="imagem 4"/>
+        </div>
+
+        <div class="slide">
+            <img src="slide/melanciaa.png" alt="imagem 5"/>
+        </div>    
+        <!-- Fim do slide imagens -->
+
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+        </div>    
+        <!-- Fim da auto navigation -->
+    </div>
+</div> 
+
+<div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+    <label for="radio5" class="manual-btn"></label>
+</div>
+
+
+
+<div class="products" id="frutas">
+    <div class="container">
+        <h2>Frutas</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="frutas/maca.jpg" alt="Fruta 1">
+        <h3>Maçã</h3>
+        <p>1 kg</p>
+        <p>R$ 5,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="frutas/manga.jpg" alt="Fruta 2">
+        <h3>Manga</h3>
+        <p>1 kg</p>
+        <p>R$ 8,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<div class="products" id="legumes-e-verduras">
+    <div class="container">
+        <h2>Legumes e Verduras</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="legumes-e-verduras/cenoura.png" alt="Legume 1">
+        <h3>Cenoura</h3>
+        <p>500 g</p>
+        <p>R$ 3,49</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="legumes-e-verduras/cebola.jpg" alt="Legume 2">
+        <h3>Cebola</h3>
+        <p>500 g</p>
+        <p>R$ 3,49</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<div class="products" id="diversos">
+    <div class="container">
+        <h2>Diversos</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="diversos/alho triturado.jpeg" alt="Produto Diverso 1">
+        <h3>Alho Triturado</h3>
+        <p>500 g</p>
+        <p>R$ 7,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="diversos/cogumelo fresco.jpg" alt="Produto Diverso 2">
+        <h3>Cogumelo</h3>
+        <p>500 g</p>
+        <p>R$ 7,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<div class="products" id="congelados">
+    <div class="container">
+        <h2>Congelados</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="congelados/frutas vermelhas.jpeg" alt="Produto Congelado 1">
+        <h3>Frutas Vermelhas</h3>
+        <p>300 g</p>
+        <p>R$ 10,49</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="congelados/polpa acerola.jpeg" alt="Produto Congelado 2">
+        <h3>Polpa de Acerola</h3>
+        <p>300 g</p>
+        <p>R$ 10,49</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<div class="products" id="especiarias">
+    <div class="container">
+        <h2>Especiarias</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="especiarias/pimenta calabresa.jpg" alt="Especiaria 1">
+        <h3>Pimenta Calabresa</h3>
+        <p>50 g</p>
+        <p>R$ 3,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="especiarias/pimenta do reino.jpg" alt="Especiaria 2">
+        <h3>Pimenta do Reino</h3>
+        <p>50 g</p>
+        <p>R$ 3,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<div class="products" id="raizes">
+    <div class="container">
+        <h2>Raízes</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="raizes/batata doce.jpg" alt="Raiz 1">
+        <h3>Batata Doce</h3>
+        <p>200 g</p>
+        <p>R$ 5,29</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="raizes/cara sao tome descascado.png" alt="Raiz 2">
+        <h3>Cará São Tome Descascado</h3>
+        <p>200 g</p>
+        <p>R$ 5,29</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<div class="products" id="produtos-naturais">
+    <div class="container">
+        <h2>Produtos Naturais</h2>
+    </div>
+
+    <div class="product-item">
+        <img src="produtos-naturais/folhas de louro.jpg" alt="Produto Natural 1">
+        <h3>Folhas de Louro</h3>
+        <p>100 g</p>
+        <p>R$ 8,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-item">
+        <img src="produtos-naturais/gengibre.png" alt="Produto Natural 2">
+        <h3>Gengibre</h3>
+        <p>100 g</p>
+        <p>R$ 8,99</p>
+        <button class="buy-button">Comprar</button>
+        <button class="cart-button">Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Social Media Strip</title>
+</head>
+<body>
+    <div class="social-strip">
+        <a href="https://www.facebook.com" class="social-icon">
+            <img src="incone/facebook.png" alt="Facebook">
+            <span>Facebook</span>
+        </a>
+    
+        <a href="https://www.instagram.com" class="social-icon">
+            <img src="incone/instagram.png" alt="Instagram">
+            <span>Instagram</span>
+        </a>
+    
+        <a href="https://twitter.com" class="social-icon">
+            <img src="incone/twitter.png" alt="Twitter">
+            <span>Twitter</span>
+        </a>
+    
+        <a href="https://www.youtube.com" class="social-icon">
+            <img src="incone/youtube.png" alt="YouTube">
+            <span>YouTube</span>
+        </a>
+    
+        <a href="https://www.whatsapp.com" class="social-icon">
+            <img src="incone/whatsapp.png" alt="WhatsApp">
+            <span>WhatsApp</span>
+        </a>
+    </div>
+    
+
+
+
+
+
+   
+   
+ 
+    <script src="script.js"></script>
+</body>
+</html>
